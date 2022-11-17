@@ -1,0 +1,15 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "license": "MIT",
+  "types": "./build/index.d.ts",
+  "files": "build/**/*",
+  "scripts": {
+    "clean": "rm -f ./build/*",
+    "build": "yarn clean && tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
+}
