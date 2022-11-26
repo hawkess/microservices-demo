@@ -8,7 +8,7 @@
     "build/**/*"
   ],
   "scripts": {
-    "clean": "rm -f ./build/*",
+    "clean": "rm -rf ./build/*",
     "build": "yarn clean && tsc",
     "pub": "git add . && git commit -m \"Updated common libraries\" && yarn version --patch && yarn build"
   },
